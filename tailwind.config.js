@@ -8,9 +8,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-bg': "url('/images/hero.jpg')"
+      },
+      colors: {
+        'dark': '#333333',
+        'dark2': '#080E24',
+        'gray-dark': '#525252',
+        'white': '#FFFFFF',
+        'blue': '#3CA3F4',
+        'foundation-primary': '#F6FBFF',
+        'foundation-blue': '#DEEFFD',
+        'foundation-dark': '#7A7A7A'
       },
     },
   },

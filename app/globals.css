@@ -2,26 +2,156 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Global */
+* {
+    @apply
+    m-0
+    p-0
+    box-border
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html{
+    @apply
+    scroll-smooth
+}
+/* Body */
+body{
+    @apply
+    text-gray-dark
+    font-normal
+    overflow-x-hidden
+    tracking-widest
+    max-w-[95rem]
+    mx-auto
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Container */
+.container{
+    @apply
+    max-w-7xl
+    mx-auto
+    px-4
+    md:px-8
+    lg:px-12
+}
+
+/* Image */
+img{
+    @apply
+    max-w-full
+}
+
+/* Header Stylings */
+h1 {
+    @apply
+    text-[40px]
+    lg:text-[56px]
+    leading-tight
+    text-white
+    font-bold
+}
+h2 {
+    @apply
+    text-[30px]
+    lg:text-[44px]
+    leading-tight
+    text-white
+    font-bold
+}
+h3 {
+    @apply
+    text-[24px]
+    lg:text-[36px]
+    leading-tight
+    font-bold
+}
+h4 {
+    @apply
+    text-[18px]
+    lg:text-[32px]
+    leading-tight
+    text-dark
+    font-bold
+}
+h5 {
+    @apply
+    text-[20px]
+    lg:text-[24px]
+    leading-tight
+    text-dark
+    font-bold
+}
+h6 {
+    @apply
+    text-[16px]
+    lg:text-[20px]
+    leading-tight
+    font-bold
+}
+p{
+    @apply
+    text-[16px]
+    tracking-widest
+}
+
+/* Navigation link */
+.nav-link{
+    @apply
+    capitalize 
+    font-semibold 
+    tracking-widest
+    hover:text-sky-500
+}
+
+/* Button */
+.btnAnimation {
+    @apply
+    hover:-translate-y-0.5
+    active:scale-[0.98]
+    transition
+    duration-300
+}
+small{
+    @apply
+    text-sm
+    tracking-widest
+}
+label{
+    @apply
+    font-bold
+    text-base
+    text-dark2
+    tracking-widest
+    mb-2
+}
+input{
+    @apply
+    border
+    outline-none
+    bg-white
+    border-foundation-blue
+    py-3
+    px-4
+    rounded-xl
+    focus-within:border-foundation-dark
+    placeholder:text-foundation-dark
+    invalid:border-pink-500
+    invalid:text-pink-500
+    tracking-widest
+}
+textarea{
+    @apply
+    bg-white
+    border
+    outline-none
+    border-foundation-blue
+    py-3
+    px-4
+    rounded-xl
+    focus-within:border-foundation-dark
+}
+/* Footer */
+.ft-list li{
+    @apply
+    pb-2
 }
