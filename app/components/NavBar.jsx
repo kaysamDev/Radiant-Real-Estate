@@ -61,7 +61,7 @@ export default function NavBar() {
           {/* Mobile view */}
           {
         
-            !istoggled ? <MenuIcon onClick={handleToggle} size={30sssss} className='block lg:hidden'/> : 
+            !istoggled ? <MenuIcon onClick={handleToggle} size={30} className='block lg:hidden'/> : 
             <X onClick={handleToggle} size={30} className='block lg:hidden'/>
           }
           {
