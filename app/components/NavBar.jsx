@@ -17,11 +17,13 @@ export default function NavBar() {
       <header className='bg-foundation-primary'>
         <nav className='container py-4 flex flex-wrap items-center justify-between relative z-40'>
           <div>
-            <Image
-              src={Logo}
-              alt='Logo of Radiant stars property'
-              quality={100}
-            />
+            <Link href="/">
+              <Image
+                src={Logo}
+                alt='Logo of Radiant stars property'
+                quality={100}
+              />
+            </Link>
           </div>
           <div className='hidden lg:block'>
             <ul className='hidden lg:inline-flex gap-8 items-center'>
@@ -41,18 +43,18 @@ export default function NavBar() {
                 </Link>
               </li>
               <li className='nav-link'>
-                <Link href='#'>
+                <Link href='/newsroom'>
                   newsroom
                 </Link>
               </li>
               <li className='nav-link'>
-                <Link href='#'>
+                <Link href='/portfolio'>
                   portfolio
                 </Link>
               </li>
               {/* Contact us */}
               <li className='nav-link border border-blue py-4 px-6 text-blue rounded-lg btnAnimation'>
-                <Link href='#contact'>
+                <Link href='/contact-us'>
                   contact us
                 </Link>
               </li>
@@ -79,17 +81,17 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li className='nav-link text-white'>
-                    <Link href='services'>
+                    <Link href='/services'>
                       services
                     </Link>
                   </li>
                   <li className='nav-link text-white'>
-                    <Link href='#'>
+                    <Link href='/newsroom'>
                       newsroom
                     </Link>
                   </li>
                   <li className='nav-link text-white'>
-                    <Link href='#'>
+                    <Link href='/portfolio'>
                       portfolio
                     </Link>
                   </li>
@@ -103,7 +105,7 @@ export default function NavBar() {
                     text-white
                     rounded-lg
                   '>
-                    <Link href='#'>
+                    <Link href='/contact-us'>
                       contact us
                     </Link>
                   </li>

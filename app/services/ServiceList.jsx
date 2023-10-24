@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ServiceList() {
   const serviceList = [
@@ -11,6 +12,8 @@ export default function ServiceList() {
         "Risk assessment and mitigation",
         "Strategic positioning and product conceptualization",
       ],
+      alt: "market analysis image",
+      img: "/images/articles/image3.png"
     },
     {
       id: 2,
@@ -21,6 +24,8 @@ export default function ServiceList() {
         "Site selection and acquisition",
         "Legal and regulatory compliance",
       ],
+      alt: "finance planning image",
+      img: "/images/articles/image2.png"
     },
     {
       id: 3,
@@ -31,6 +36,8 @@ export default function ServiceList() {
         "Sales & Marketing Strategy",
         "CRM setup and post-sales support",
       ],
+      alt: "project management image",
+      img: "/images/articles/image1.png"
     },
     {
       id: 4,
@@ -41,28 +48,32 @@ export default function ServiceList() {
         "Facilities Management",
         "Owners Association Management",
       ],
+      alt: "market analysis image",
+      img: "/images/articles/image2.png"
     },
   ];
   return (
     <>
       {serviceList.map((list) => (
-        <div
-          className="max-w-[300px] w-full min-h-[400px] px-4 py-8 shadow-md rounded-2xl"
-          key={list.id}
-        >
-          {/* icon */}
-          <div className="bg-foundation-primary w-12 aspect-square rounded-full grid place-content-center">
-            <Image src={list.url} width={28} height={28} />
+        <Link href={"/services/" + list.id}>
+          <div
+            className="max-w-[300px] w-full min-h-[400px] px-4 py-8 shadow-md rounded-2xl"
+            key={list.id}
+          >
+            {/* icon */}
+            <div className="bg-foundation-primary w-12 aspect-square rounded-full grid place-content-center">
+              <Image src={list.url} width={28} height={28} alt={list.alt}/>
+            </div>
+            <div className="py-4">
+              <h6>{list.header}</h6>
+            </div>
+            <ul className="pl-4">
+              <li className="pb-4 list-disc"><small>{list.list[0]}</small></li>
+              <li className="pb-4 list-disc"><small>{list.list[1]}</small></li>
+              <li className="pb-4 list-disc"><small>{list.list[2]}</small></li>
+            </ul>
           </div>
-          <div className="py-4">
-            <h6>{list.header}</h6>
-          </div>
-          <ul className="pl-4">
-            <li className="pb-4 list-disc"><small>{list.list[0]}</small></li>
-            <li className="pb-4 list-disc"><small>{list.list[1]}</small></li>
-            <li className="pb-4 list-disc"><small>{list.list[2]}</small></li>
-          </ul>
-        </div>
+        </Link>
       ))}
     </>
   );

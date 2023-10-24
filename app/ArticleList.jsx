@@ -17,7 +17,7 @@ export default function ArticleList() {
               <div className='mt-6 px-12 md:px-8'>
                 <small className="text-sm">1 April 2023</small>
                 <h6 className="mb-6">Diamond Manor Apartment in the New York and Service</h6>
-                <Link href="/" className="text-blue hover:underline">
+                <Link href="/#" className="text-blue hover:underline">
                     Read More
                 </Link>
               </div>
@@ -37,7 +37,7 @@ export default function ArticleList() {
               <div className='mt-6 px-12 md:px-8'>
                 <small className="text-sm">1 April 2023</small>
                 <h6 className="mb-6">Diamond Manor Apartment in the New York and Service</h6>
-                <Link href="/" className="text-blue hover:underline">
+                <Link href="/#" className="text-blue hover:underline">
                     Read More
                 </Link>
               </div>
@@ -56,7 +56,7 @@ export default function ArticleList() {
               <div className='mt-6 px-12 md:px-8'>
                 <small className="text-sm">1 April 2023</small>
                 <h6 className="mb-6">Diamond Manor Apartment in the New York and Service</h6>
-                <Link href="/" className="text-blue hover:underline">
+                <Link href="/#" className="text-blue hover:underline">
                     Read More
                 </Link>
               </div>
