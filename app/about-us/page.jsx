@@ -25,6 +25,7 @@ export default function About() {
                 src="/images/about-us/about.png"
                 width={523.25}
                 height={542.43}
+                alt="about us main image"
                 />
             </div>
             <div className="
@@ -142,6 +143,7 @@ export default function About() {
                     src="/images/about-us/boss-img.jpg"
                     width={493.36}
                     height={493.36}
+                    alt="CEO image"
                     />
                 </div>
                 <h3 className="text-center">Abid Junaid</h3>
@@ -163,25 +165,25 @@ export default function About() {
                 <h5 className="mb-4">Key Achievements</h5>
                 <ul>
                     <li className="mb-4 inline-flex items-center gap-2">
-                        <Image src={listUrl} width={16} height={16}/>
+                        <Image src={listUrl} width={16} height={16} alt="list vevctor icon"/>
                         <small>First to deliver a mixed use building in DIFC.</small>
                     </li>
                     <li className="mb-4 inline-flex items-center gap-2">
-                        <Image src={listUrl} width={16} height={16}/>
+                        <Image src={listUrl} width={16} height={16} alt="list vevctor icon"/>
                         <small>Led first real estate company in UAE to receive an  ISO rating..</small>
                     </li>
                     <li className="mb-4 inline-flex items-center gap-2">
-                        <Image src={listUrl} width={16} height={16}/>
+                        <Image src={listUrl} width={16} height={16} alt="list vevctor icon"/>
                         <small>Won the MRM Award for the real estate development category</small>
                     </li>
                     <li className="mb-4 inline-flex items-center gap-2">
-                        <Image src={listUrl} width={16} height={16}/>
+                        <Image src={listUrl} width={16} height={16} alt="list vevctor icon"/>
                         <small>Previously led real estate company (ETA Ascon) which was awarded 
                             the coveted Super Brand award for 4 consecutive years
                         </small>
                     </li>
                     <li className="inline-flex items-center gap-2">
-                        <Image src={listUrl} width={16} height={16}/>
+                        <Image src={listUrl} width={16} height={16} alt="list vevctor icon"/>
                         <small>Developed and delivered the tallest residential building in the world upon 
                             completion in 2007y
                         </small>
@@ -194,7 +196,7 @@ export default function About() {
 
       {/* Chairmen in the media */}
       <section>
-
+            
       </section>
       {/* Chairmen in the media end */}
 
