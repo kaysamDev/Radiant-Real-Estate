@@ -70,7 +70,7 @@ export default function ContactUs() {
                     <span className='max-w-[346px] text-center md:text-left'>
                       <h6 className='text-white'>Drop Us a Line</h6>
                       <p className='text-[#B5BACC] py-2'>Have specific questions or need detailed insights?<br /> 
-                      We're just an email away 
+                      We&apos;re just an email away 
                       </p>
                       <p><b className='text-white'>info@radiantstar.ae</b></p>
                     </span>

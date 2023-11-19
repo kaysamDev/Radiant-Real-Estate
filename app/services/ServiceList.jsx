@@ -55,7 +55,7 @@ export default function ServiceList() {
   return (
     <>
       {serviceList.map((list) => (
-        <Link href={"/services/" + list.id}>
+        <Link href={"/services/" + list.id} key={list.id}>
           <div
             className="max-w-[300px] w-full min-h-[400px] px-4 py-8 shadow-md rounded-2xl"
             key={list.id}

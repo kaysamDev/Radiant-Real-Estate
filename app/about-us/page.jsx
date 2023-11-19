@@ -59,7 +59,7 @@ export default function About() {
             </p>
             <p className="mb-6">
                 As part of a larger diversified multinational group, we leverage our extensive network and 
-                partnerships to deliver exceptional results. Whether you're starting a new project or need assistance at any 
+                partnerships to deliver exceptional results. Whether you&apos;re starting a new project or need assistance at any 
                 phase of the development lifecycle, Radiant Star has the expertise and tailored solutions to meet your needs.
             </p>
             <p className="mb-6">
