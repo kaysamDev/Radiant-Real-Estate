@@ -1,4 +1,5 @@
-// Images
+"use client"
+
 import Image from 'next/image'
 import AboutImage from '../public/images/about_1.webp'
 import Link from 'next/link'
@@ -6,8 +7,15 @@ import CallToAction from './components/CallToAction'
 import ArticleList from './ArticleList'
 import Project from './Project'
 import ContactUs from './components/ContactUs'
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router = useRouter()
+
+  const handleClick = () => {
+    router.push('/contact-us')
+  }
+
   return (
     <>
       {/* Hero Section */}
@@ -20,7 +28,9 @@ export default function Home() {
             <p className="text-white pt-4 pb-8">
               Comprehensive real estate, investment, development and management solutions
             </p>
-            <button className="bg-blue px-6 py-4 max-sm:mb-4 rounded-lg text-white btnAnimation">
+            <button className="bg-blue px-6 py-4 max-sm:mb-4 rounded-lg text-white btnAnimation"
+            onClick={handleClick}
+            >
               Get in touch
             </button>
           </div>
@@ -48,7 +58,7 @@ export default function Home() {
                   With over 3 decades of local industry experience across construction and real estate, and a dedicated team of accomplished professionals, we help
                   clients navigate the complexities of real estate development in UAE, achieve their goals, and maximize their returns.
                   </p>
-                  <Link href='#' className='text-blue hover:underline'>
+                  <Link href='/about-us' className='text-blue hover:underline'>
                     Learn more
                   </Link>
               </div>
@@ -59,7 +69,7 @@ export default function Home() {
                     investment analysis, project management, execution and more. We tailor our solutions to meet your unique goals 
                     and objectives
                   </p>
-                  <Link href='#' className='text-blue hover:underline'>
+                  <Link href='/about-us' className='text-blue hover:underline'>
                     Learn more
                   </Link>
               </div>
@@ -69,7 +79,7 @@ export default function Home() {
                     With a successful track record as both advisors and developers, we offer a unique perspective on the Dubai 
                     real estate market. Our hands-on experience ensures practical and effective solutions for your projects
                   </p>
-                  <Link href='#' className='text-blue hover:underline'>
+                  <Link href='/about-us' className='text-blue hover:underline'>
                     Learn more
                   </Link>
               </div>
@@ -103,7 +113,7 @@ export default function Home() {
             </div>
             <div>
               <Link
-                href='/#'
+                href='/newsroom'
                 className='
                 mt-10
                 border

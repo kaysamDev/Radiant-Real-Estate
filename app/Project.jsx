@@ -18,7 +18,7 @@ export default function Project() {
             <ProjectsList />
           </div>
             <Link 
-            href='/#'
+            href='/portfolio'
             className='
                 mt-10
                 border

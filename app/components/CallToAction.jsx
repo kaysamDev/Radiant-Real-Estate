@@ -1,6 +1,14 @@
+"use client"
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function CallToAction() {
+  const router = useRouter()
+
+  const handleClick = () => {
+    router.push('/contact-us')
+  }
   return (
     <>
       <div className="container  relative flex flex-col items center">
@@ -12,7 +20,9 @@ export default function CallToAction() {
                 <p className="text-white pt-4 pb-8 max-w-[495px]">
                 Speak to our real estate experts and benefit from personalised guidance tailored to your  goals
                 </p>
-                <button className="bg-white px-6 py-4 rounded-lg text-dark btnAnimation">
+                <button className="bg-white px-6 py-4 rounded-lg text-dark btnAnimation"
+                onClick={handleClick}
+                >
                 Get in touch
                 </button>
             </div>
