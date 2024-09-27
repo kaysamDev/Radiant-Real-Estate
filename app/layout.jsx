@@ -9,7 +9,7 @@ const lato = Lato({
 })
 
 export const metadata = {
-  title: 'Radiant Real Estate',
+  title: 'PrimeNest Consultants',
   description: 'Real Estate Development Company',
 }
 

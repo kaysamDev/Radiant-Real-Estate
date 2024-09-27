@@ -23,7 +23,7 @@ export default function ProjectsList() {
                         height={15}
                         />
                         <p className='gray-dark'>
-                        Dubai, UAE
+                        USA, NY
                         </p>
                     </div>
                 {/* Dimension and status */}
@@ -71,7 +71,7 @@ export default function ProjectsList() {
                 height={15}
                 />
                 <p className='gray-dark'>
-                Dubai, UAE
+                USA, NY
                 </p>
             </div>
             {/* Dimension and status */}
@@ -118,7 +118,7 @@ export default function ProjectsList() {
                 height={15}
                 />
                 <p className='gray-dark'>
-                Dubai, UAE
+                USA, NY
                 </p>
             </div>
             {/* Dimension and status */}

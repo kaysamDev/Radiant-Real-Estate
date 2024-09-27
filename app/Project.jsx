@@ -9,7 +9,7 @@ export default function Project() {
           <div className='max-w-[560px] text-center'>
             <h2 className='text-[#141C30]'>Our Projects</h2>
             <p className='py-10'>Our comprehensive real estate expetise has enabled us to deliver successful 
-              projects throughout Dubai
+              projects throughout USA
             </p>
           </div>
           {/* Header End */}

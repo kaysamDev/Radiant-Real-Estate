@@ -22,10 +22,11 @@ export default function About() {
             <h2 className="text-black mb-6 block lg:hidden text-center">About Us</h2>
             <div className="static lg:absolute z-20 lg:-top-80">
                 <Image
-                src="/images/about-us/about.png"
+                src="/images/about-us/about2.jpg"
                 width={523.25}
                 height={542.43}
                 alt="about us main image"
+                className="rounded-2xl"
                 />
             </div>
             <div className="
@@ -49,22 +50,16 @@ export default function About() {
         <div className="max-w-[616px] w-full flex-1">
             <h2 className="text-black mb-8 hidden lg:block">About Us</h2>
             <p className="mb-6">
-                At Radiant Star, we are your trusted partner in real estate. With over three decades of 
-                experience in the Dubai, we provide expert guidance and personalised solutions for investors and developers.
+            At PrimeNest Consultants, we are your trusted partner in real estate. With over three decades of experience in the USA, we deliver expert advice and customized solutions for investors and developers.
             </p>
             <p className="mb-6">
-                Our dedicated team of professionals understands every aspect of real estate development, 
-                from design and construction to delivery and sales. We have a proven track record of helping clients navigate the 
-                complexities of the UAE market and maximise their returns.
+            Our committed team of experts is well-versed in all facets of real estate development, from design and construction to delivery and sales. We have a solid track record of guiding clients through the complexities of the USA market and optimizing their returns.
             </p>
             <p className="mb-6">
-                As part of a larger diversified multinational group, we leverage our extensive network and 
-                partnerships to deliver exceptional results. Whether you&apos;re starting a new project or need assistance at any 
-                phase of the development lifecycle, Radiant Star has the expertise and tailored solutions to meet your needs.
+            As a member of a broader diversified multinational group, we tap into our vast network and partnerships to achieve outstanding results. Whether you're launching a new project or seeking support at any stage of the development lifecycle, PrimeNest Consultants offers the expertise and customized solutions to suit your needs.
             </p>
             <p className="mb-6">
-                Choose Radiant Star for unrivalled expertise and a commitment to your success in the dynamic 
-                world of real estate.
+            Choose PrimeNest Consultants for unmatched expertise and a dedication to your success in the ever-evolving real estate industry.
             </p>
 
             <div className="flex flex-col md:flex-row justify-start items-center md:items-start gap-4 lg:gap-8">
@@ -140,24 +135,19 @@ export default function About() {
                 <h1 className="text-black">Our Chairman</h1>
                 <div className="max-w-[400px] w-full aspect-square rounded-full border border-green-500 my-4 overflow-hidden">
                     <Image
-                    src="/images/about-us/boss-img.jpg"
+                    src="/images/about-us/boss-img2.jpg"
                     width={493.36}
                     height={493.36}
                     alt="CEO image"
                     />
                 </div>
-                <h3 className="text-center">Abid Junaid</h3>
+                <h3 className="text-center">Moses Bliss</h3>
                 <div>
                     <p className="my-8">
-                        Abid Junaid has over 30 years of experience in the Middle East and has established himself
-                        as a true visionary in the region. He has led pioneer companies into market and transformed
-                        them into industry leaders that are now recognized for their excellence in their respective
-                        sectors of construction, contracting, facilities management, real estate development and food &
-                        beverages.
+                    Moses Bliss brings over 25 years of experience in the Middle East and is renowned as a visionary in the region. He has spearheaded pioneering companies, turning them into market leaders recognized for their excellence across sectors such as construction, contracting, facilities management, real estate development, and food & beverages.
                     </p>
                     <p>
-                        Most notably, he has developed and delivered over 30 million square feet of premium real
-                        estate and has been instrumental in the development of several landmarks in the GCC region.
+                    Notably, he has developed and delivered more than 30 million square feet of premium real estate and has played a crucial role in creating several landmark projects in the NY City.
                     </p>
                 </div>
             </div>
