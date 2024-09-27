@@ -23,10 +23,10 @@ export default function Home() {
         <div className="container flex justify-start items-center">
           <div className="w-full mt-10 z-20">
             <h1 className="capitalize max-w-[660px] font-bold">
-              expert real estate advisory services in dubai
+            Specialized real estate consulting services.
             </h1>
             <p className="text-white pt-4 pb-8">
-              Comprehensive real estate, investment, development and management solutions
+              Unlock unparalleled real estate expertise and guidance, tailored to your needs for lasting success.
             </p>
             <button className="bg-blue px-6 py-4 max-sm:mb-4 rounded-lg text-white btnAnimation"
             onClick={handleClick}
@@ -53,10 +53,7 @@ export default function Home() {
               <div className='border-l-2 pl-8 hover:border-blue'>
                   <h4 className='font-bold mb-2'>About</h4>
                   <p className='mb-6'>
-                  We are a leading real estate firm based in Dubai, committed to providing expert guidance and personalised solutions for investors and developers.
-                  <br /><br />
-                  With over 3 decades of local industry experience across construction and real estate, and a dedicated team of accomplished professionals, we help
-                  clients navigate the complexities of real estate development in UAE, achieve their goals, and maximize their returns.
+                  We are a premier real estate firm located in Dubai, dedicated to offering expert advice and tailored solutions for investors and developers.
                   </p>
                   <Link href='/about-us' className='text-blue hover:underline'>
                     Learn more
@@ -65,19 +62,16 @@ export default function Home() {
               <div className='border-l-2 pl-8 hover:border-blue mt-6'>
                   <h4 className='font-bold mb-2'>Comprehensive Real Estate Services</h4>
                   <p className='mb-6'>
-                    Our wide range of real estate development advisory services includes market research, feasibility studies, 
-                    investment analysis, project management, execution and more. We tailor our solutions to meet your unique goals 
-                    and objectives
+                  Our comprehensive real estate development advisory services encompass market research, feasibility assessments, investment analysis, project management, execution, and more. We customize our solutions to align with your specific goals and objectives.
                   </p>
-                  <Link href='/about-us' className='text-blue hover:underline'>
+                  <Link href='/services' className='text-blue hover:underline'>
                     Learn more
                   </Link>
               </div>
               <div className='border-l-2 pl-8 hover:border-blue mt-6'>
                   <h4 className='font-bold mb-2'>Holistic expertise as Advisors, Developers, and Managers</h4>
                   <p className='mb-6'>
-                    With a successful track record as both advisors and developers, we offer a unique perspective on the Dubai 
-                    real estate market. Our hands-on experience ensures practical and effective solutions for your projects
+                  With a proven history as both consultants and developers, we bring a distinctive viewpoint to the USA real estate market. Our direct experience guarantees practical and efficient solutions for your projects.
                   </p>
                   <Link href='/about-us' className='text-blue hover:underline'>
                     Learn more

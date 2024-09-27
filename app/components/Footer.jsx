@@ -12,7 +12,8 @@ export default function Footer() {
                     <div className='max-w-[550px] w-full'>
                         <Image 
                         src={Logo}
-                        alt='Logo of Radiant stars property'
+                        alt='Logo of PrimeNest Consultants property'
+                        width={200}
                         quality={100}
                         />
                         <p className='text-base py-6'>Join our newsletter to stay up to date on features and releases.</p>
@@ -35,8 +36,8 @@ export default function Footer() {
                     <div className='max-w-[550px] w-full grid grid-flow-row grid-cols-2 md:grid-cols-3 place-items-start gap-8'>
                         <ul className='ft-list'>
                             <h3 className='text-lg ft-header pb-4 font-bold'>Information</h3>
-                            <li>Dubai</li>
-                            <li>+91XXXXXXXXXXX</li>
+                            <li>USA</li>
+                            <li>+1XXXXXXXXXXX</li>
                             <li>xxxx@gmail.com</li>
                         </ul>
                         <ul className='ft-list'>
@@ -59,8 +60,8 @@ export default function Footer() {
                         </ul>
                         <ul className='ft-list'>
                             <h3 className='text-lg ft-header pb-4 font-bold'>Follow Us</h3>
-                            <li>Dubai</li>
-                            <li>+91XXXXXXXXXXX</li>
+                            <li>USA</li>
+                            <li>+1XXXXXXXXXXX</li>
                             <li>xxxx@gmail.com</li>
                         </ul>
                     </div>
@@ -70,7 +71,7 @@ export default function Footer() {
                 {/* Copyright */}
                 <div className='flex items-start flex-wrap md:items-center justify-between gap-y-6'>
                     <div>
-                        <small>&copy; <span> 2023 All right reserved</span></small>
+                        <small>&copy; <span> 2024 All right reserved</span></small>
                     </div>
 
                     <div>

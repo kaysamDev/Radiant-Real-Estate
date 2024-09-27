@@ -62,7 +62,7 @@ export default function ContactUs() {
                     <Image src="/images/vectors/cnt-loc.png" alt="location vector image" width={30} height={30}/>
                     <span className='max-w-[346px] text-center md:text-left'>
                       <h6 className='text-white'>Our Office Location</h6>
-                      <p className='text-[#B5BACC]'>Al Abraj Street, Al Manara Tower Office 2007 - Dubai - United Arab Emirates</p>
+                      <p className='text-[#B5BACC]'>Al Abraj Street, Al Manara Tower Office 2007 - USA - New York City</p>
                     </span>
                   </li>
                   <li className='flex flex-col md:flex-row items-center md:items-start gap-4'>
@@ -72,7 +72,7 @@ export default function ContactUs() {
                       <p className='text-[#B5BACC] py-2'>Have specific questions or need detailed insights?<br /> 
                       We&apos;re just an email away 
                       </p>
-                      <p><b className='text-white'>info@radiantstar.ae</b></p>
+                      <p><b className='text-white'>info@primeNest.org</b></p>
                     </span>
                   </li>
                   <li className='flex flex-col md:flex-row items-center md:items-start gap-4'>
